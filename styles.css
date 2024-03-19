@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/23/47/acient-planet-1841699_1280.jpg');
+    background-color: #e0d5c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.clock-body {
+    background-color: #8c6a5e;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.alarm-clock {
+    width: 50px;
+    height: 50px;
+    background-color: #b56549;
+    border-radius: 50%;
+    
+}
+
+.clock-display {
+    font-size: 2em;
+    color: #fff;
+    background-color: #8c6a5e;
+    padding: 10px;
+    border-radius: 10px;
+}
